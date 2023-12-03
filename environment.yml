@@ -1,0 +1,23 @@
+name: sbackprop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - setuptools=68.0.0
+  - vtk=9.0.3
+  - loguru=0.7.0
+  - pip:
+      - biopython==1.81
+      - matplotlib==3.7.1
+      - mrcfile==1.4.3
+      - numpy==1.24.3
+      - pandas==2.0.2
+      - scikit-learn==1.2.2
+      - scipy==1.10.1
+      - starfile==0.4.12
+      - tensorboard==2.13.0
+      - torch==2.0.1
+      - torchvision==0.15.2
+      - tqdm==4.65.0
+      - umap-learn==0.5.3
